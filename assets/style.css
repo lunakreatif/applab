@@ -1,0 +1,170 @@
+/* AppLab — tek stil dosyası, bağımlılık yok.
+   Sıcak kâğıt paleti; her uygulama kendi --accent değerini getiriyor. */
+
+:root {
+  --accent: #b3721f;
+  --kagit: #f7efe1;
+  --kagit-2: #fffaf1;
+  --murekkep: #2c1c10;
+  --murekkep-soft: #6f5943;
+  --cizgi: #e2d3ba;
+  --golge: 0 1px 2px rgba(44, 28, 16, .06), 0 8px 24px rgba(44, 28, 16, .07);
+  --yuvarlak: 14px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --kagit: #17120e;
+    --kagit-2: #221a14;
+    --murekkep: #f0e6d8;
+    --murekkep-soft: #b3a08a;
+    --cizgi: #33281f;
+    --golge: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .35);
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  color: var(--murekkep);
+  background: var(--kagit);
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+
+main { max-width: 62rem; margin: 0 auto; padding: 0 1.25rem 4rem; }
+
+/* ---------- üst bar ---------- */
+
+.ust {
+  max-width: 62rem;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.marka { display: flex; flex-direction: column; text-decoration: none; color: inherit; line-height: 1.2; }
+.marka-ad { font-weight: 700; font-size: 1.2rem; letter-spacing: -.01em; }
+.marka-alt { font-size: .8rem; color: var(--murekkep-soft); }
+.ust nav { display: flex; gap: 1.25rem; font-size: .95rem; }
+.ust nav a { color: var(--murekkep-soft); text-decoration: none; }
+.ust nav a:hover, .ust nav a.secili { color: var(--murekkep); }
+
+/* ---------- giriş ---------- */
+
+.giris { padding: 2rem 0 1rem; max-width: 34rem; }
+.giris h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); line-height: 1.15; letter-spacing: -.02em; margin: 0 0 .6rem; }
+.giris p { color: var(--murekkep-soft); margin: 0; }
+
+/* ---------- kategori + kartlar ---------- */
+
+.kategori { margin-top: 3rem; }
+.kategori h2 { font-size: 1.3rem; margin: 0 0 .2rem; }
+.kategori-not { color: var(--murekkep-soft); margin: 0 0 1.25rem; font-size: .95rem; }
+
+.izgara { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr)); }
+
+.kart {
+  display: flex; gap: 1rem; align-items: center;
+  padding: 1.1rem;
+  background: var(--kagit-2);
+  border: 1px solid var(--cizgi);
+  border-radius: var(--yuvarlak);
+  text-decoration: none; color: inherit;
+  box-shadow: var(--golge);
+  transition: transform .15s ease, border-color .15s ease;
+}
+.kart:hover { transform: translateY(-2px); border-color: var(--accent); }
+.kart-ikon { border-radius: 18px; flex: 0 0 auto; }
+.kart-metin h3 { margin: 0 0 .15rem; font-size: 1.05rem; }
+.kart-metin p { margin: 0 0 .5rem; color: var(--murekkep-soft); font-size: .9rem; }
+
+.rozet {
+  display: inline-block; font-size: .72rem; font-weight: 600; letter-spacing: .01em;
+  padding: .2rem .55rem; border-radius: 999px;
+  background: color-mix(in srgb, var(--accent) 15%, transparent);
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+}
+
+/* ---------- uygulama sayfası ---------- */
+
+.uygulama-ust { display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap; padding: 2rem 0 .5rem; }
+.uygulama-ikon { border-radius: 26px; box-shadow: var(--golge); }
+.uygulama-ust h1 { margin: 0 0 .2rem; font-size: clamp(1.7rem, 4vw, 2.2rem); letter-spacing: -.02em; }
+.slogan { margin: 0 0 .4rem; color: var(--murekkep-soft); font-size: 1.05rem; }
+.kunye { margin: 0 0 .75rem; font-size: .85rem; color: var(--murekkep-soft); }
+
+.dugme {
+  display: inline-block; margin-right: .5rem;
+  padding: .5rem 1.1rem; border-radius: 999px;
+  background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; font-size: .95rem;
+}
+
+.lead { font-size: 1.1rem; line-height: 1.7; max-width: 44rem; margin: 1.5rem 0 2.5rem; }
+
+.vitrin {
+  display: grid; gap: 1rem;
+  grid-auto-flow: column; grid-auto-columns: minmax(15rem, 16rem);
+  overflow-x: auto; padding-bottom: 1rem;
+  scroll-snap-type: x mandatory;
+}
+.vitrin figure { margin: 0; scroll-snap-align: start; }
+.vitrin img {
+  width: 100%; height: auto; display: block;
+  border-radius: 20px; border: 1px solid var(--cizgi); box-shadow: var(--golge);
+}
+.vitrin figcaption { font-size: .82rem; color: var(--murekkep-soft); margin-top: .5rem; text-align: center; }
+
+.ozellikler {
+  display: grid; gap: 1.25rem 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  margin: 2.5rem 0;
+}
+.ozellik h3 { margin: 0 0 .25rem; font-size: 1.02rem; }
+.ozellik h3::before { content: ""; display: inline-block; width: .5rem; height: .5rem; border-radius: 2px; background: var(--accent); margin-right: .5rem; vertical-align: middle; }
+.ozellik p { margin: 0; color: var(--murekkep-soft); font-size: .95rem; }
+
+.alt-baglantilar { display: flex; gap: 1.25rem; padding-top: 1.5rem; border-top: 1px solid var(--cizgi); font-size: .95rem; }
+
+/* ---------- metin sayfaları (gizlilik / destek) ---------- */
+
+.metin { max-width: 44rem; padding-top: 1.5rem; }
+.metin h1 { font-size: clamp(1.5rem, 4vw, 2rem); margin: 0 0 .25rem; letter-spacing: -.01em; }
+.metin h2 { font-size: 1.1rem; margin: 2rem 0 .5rem; }
+.metin ul { padding-left: 1.2rem; }
+.metin li { margin: .3rem 0; }
+.firari { font-size: .9rem; margin: 0 0 1rem; }
+.firari a { color: var(--murekkep-soft); text-decoration: none; }
+
+.ozet {
+  background: var(--kagit-2);
+  border: 1px solid var(--cizgi);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--yuvarlak);
+  padding: .25rem 1.1rem;
+  margin: 1.5rem 0;
+}
+
+details {
+  border-bottom: 1px solid var(--cizgi);
+  padding: .85rem 0;
+}
+details summary { cursor: pointer; font-weight: 600; }
+details p { color: var(--murekkep-soft); margin: .6rem 0 0; }
+
+/* ---------- alt bilgi ---------- */
+
+.alt {
+  max-width: 62rem; margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+  border-top: 1px solid var(--cizgi);
+  color: var(--murekkep-soft); font-size: .88rem;
+}
+.alt p { margin: 0; }

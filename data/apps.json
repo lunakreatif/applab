@@ -1,0 +1,137 @@
+{
+  "site": {
+    "name": "AppLab",
+    "studio": "Luna Kreatif",
+    "tagline": "Küçük, iyi düşünülmüş uygulamalar.",
+    "intro": "Luna Kreatif'in geliştirdiği mobil uygulamalar. Her birinin tanıtımı, ekran görüntüleri, gizlilik politikası ve destek sayfası burada.",
+    "url": "https://applab.lunakreatif.com",
+    "contactEmail": "kemal.yldz@gmail.com",
+    "year": 2026
+  },
+
+  "categories": [
+    { "slug": "oyun", "name": "Oyun", "description": "Oynanışı basit, derinliği sonradan açılan oyunlar." },
+    { "slug": "arac", "name": "Araç", "description": "Günlük işleri kolaylaştıran küçük araçlar." }
+  ],
+
+  "apps": [
+    {
+      "slug": "kokten",
+      "name": "Kökten",
+      "tagline": "Bir kökten kaç kelime türetebilirsin?",
+      "category": "oyun",
+      "status": "yakinda",
+      "statusLabel": "Yakında App Store'da",
+      "accent": "#B3721F",
+      "icon": "assets/kokten/icon.png",
+      "platforms": ["iOS", "Android"],
+      "languages": ["Türkçe"],
+      "price": "Ücretsiz",
+
+      "lead": "Sana bir Türkçe kök verilir — örneğin GÖZ. Süre dolmadan o kökten türeyen kelimeleri bulmaya çalışırsın: gözlük, gözcü, gözlem, gözlemci… Basit görünür, ta ki süre işlemeye başlayana kadar.",
+
+      "features": [
+        {
+          "title": "Günün Kökü",
+          "body": "Her gün tek bir kök, herkese aynı. Günde bir kez oynanır, 180 saniye sürer. Kaçırdığın kelimeleri turun sonunda görebilirsin."
+        },
+        {
+          "title": "Sonsuz Mod",
+          "body": "Canın istediği kadar oyna. Üst üste oynadıkça tur serin uzar, seri uzadıkça kökler zorlaşır."
+        },
+        {
+          "title": "Tohumdan koca ağaca",
+          "body": "Kesintisiz oynadığın her gün seriyi büyütür: Tohum, Filiz, Fide, Fidan, Köklendi, Genç ağaç, Koca ağaç. Bir iki gün kaçırmak seriyi bozmaz."
+        },
+        {
+          "title": "Türkçe'ye göre yazıldı",
+          "body": "“gozluk” yazsan da gözlük'ü bulur. Türkçe karakter zorunlu değil, doğru yazım ekranda gösterilir."
+        },
+        {
+          "title": "İnternetsiz çalışır",
+          "body": "Sözlük cihazında. Hesap yok, giriş yok, sunucuya hiçbir şey gönderilmiyor. Skorların yalnızca senin telefonunda durur."
+        }
+      ],
+
+      "screenshots": [
+        { "src": "assets/kokten/menu.png", "caption": "Ana menü ve gün serisi" },
+        { "src": "assets/kokten/oyun.png", "caption": "Kelimeler bulundukça yeşile döner" },
+        { "src": "assets/kokten/sonuc.png", "caption": "Tur sonucu" },
+        { "src": "assets/kokten/kacanlar.png", "caption": "Kaçırdığın kelimeler" },
+        { "src": "assets/kokten/seri.png", "caption": "Seri takibi: yedi basamak" }
+      ],
+
+      "links": { "appStore": null, "googlePlay": null },
+
+      "privacy": {
+        "updated": "9 Ağustos 2026",
+        "summary": "Kökten hesap açmanızı istemez, adınızı sormaz ve oyun verilerinizi bir sunucuya göndermez. Oynadığınız turlar, skorlarınız ve ayarlarınız yalnızca kendi cihazınızda saklanır. Uygulamayı silerseniz bu veriler de silinir. Toplanan tek veri, uygulamada gösterilen reklamlarla ilgilidir.",
+        "sections": [
+          {
+            "title": "Cihazınızda kalan veriler",
+            "body": "Aşağıdakiler telefonunuzun içindeki bir veritabanında tutulur; biz erişemeyiz:",
+            "list": [
+              "Oynadığınız turların skorları, bulduğunuz kelime sayısı ve tarihleri",
+              "Gün seriniz",
+              "Ayarlarınız (ses, müzik, titreşim, günlük hatırlatma)",
+              "Cevaplarını görüntülediğiniz kökler"
+            ],
+            "after": "Ayarlar ekranındaki <strong>“Skorlarımı sil”</strong> düğmesi bunların tamamını siler."
+          },
+          {
+            "title": "Reklamlar",
+            "body": "Uygulamada Google AdMob aracılığıyla reklam gösterilir. AdMob, size uygun reklam seçebilmek ve reklam performansını ölçebilmek için cihazınızın reklam tanımlayıcısını (Advertising Identifier) işleyebilir.",
+            "list": [
+              "<strong>iOS'ta</strong>, kişiselleştirilmiş reklam için önce izin isteriz (App Tracking Transparency). İzin vermezseniz de oyun aynı şekilde çalışır; yalnızca reklamlar kişiselleştirilmez.",
+              "<strong>Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'de</strong> ayrıca Google'ın onay ekranı gösterilir ve tercihiniz oradan alınır.",
+              "Reklam kimliğinizi cihaz ayarlarından sıfırlayabilir ya da kişiselleştirilmiş reklamı kapatabilirsiniz."
+            ],
+            "after": "Google'ın bu verileri nasıl işlediği: <a href=\"https://policies.google.com/technologies/partner-sites\">policies.google.com/technologies/partner-sites</a><br><br>Bunun dışında <strong>hiçbir analitik, çökme raporlama veya izleme aracı kullanılmaz.</strong>"
+          },
+          {
+            "title": "Bildirimler",
+            "body": "Günlük hatırlatma bildirimini <strong>siz açarsanız</strong> telefonunuz her akşam yerel olarak bir hatırlatma gösterir. Bildirim cihazınızda oluşturulur; bize hiçbir bilgi gitmez. Ayarlardan ya da telefonunuzun bildirim ayarlarından kapatabilirsiniz."
+          },
+          {
+            "title": "Çocuklar",
+            "body": "Kökten 13 yaşın altındaki çocuklara yönelik değildir ve bilerek onlardan veri toplamaz."
+          },
+          {
+            "title": "Haklarınız",
+            "body": "Verileriniz cihazınızda olduğu için erişim, düzeltme ve silme tamamen sizin elinizdedir: Ayarlar → “Skorlarımı sil”, ya da uygulamayı kaldırmak. Reklam tanımlayıcınıza ilişkin talepleriniz için Google'ın yukarıdaki sayfasına başvurabilir, ayrıca bizimle iletişime geçebilirsiniz."
+          },
+          {
+            "title": "Değişiklikler",
+            "body": "Bu politika değişirse yukarıdaki tarih güncellenir. Önemli bir değişiklikte uygulama içinde bilgilendirme yapılır."
+          }
+        ]
+      },
+
+      "support": {
+        "intro": "Kökten ile ilgili soru, hata bildirimi ve önerilerini bekliyoruz. Genelde 2–3 iş günü içinde dönüş yapılır.",
+        "faq": [
+          {
+            "q": "Günün Kökü düğmesi neden pasif?",
+            "a": "Günün Kökü günde bir kez oynanır. O günkü turu oynadıysan düğme pasifleşir ve altında “Aynı kökü tekrar oyna” görünür — bu alıştırma turudur, puanı sıralamaya girmez. Ertesi gün yeni kök gelir."
+          },
+          {
+            "q": "Türkçe karakter yazmak zorunda mıyım?",
+            "a": "Hayır. “gozluk” yazman yeter, oyun gözlük'ü bulur ve doğru yazımı ekranda gösterir."
+          },
+          {
+            "q": "Gün serimi kaybettim, neden?",
+            "a": "Seri yalnızca Günün Kökü'nden sayılır ve üç gün üst üste oynamazsan sıfırlanır. Bir iki günlük ara seriyi bozmaz."
+          },
+          {
+            "q": "Bildiğim bir kelime kabul edilmiyor",
+            "a": "Sözlük sınırlı bir türev listesinden oluşuyor; her geçerli kelime içinde olmayabilir. Eksik bulduğun kelimeyi bize yazarsan bir sonraki sürümde ekleyelim."
+          },
+          {
+            "q": "Skorlarımı nasıl silerim?",
+            "a": "Ayarlar → “Skorlarımı sil”. Tur geçmişin, sıralaman ve gün serin silinir; bu işlem geri alınamaz."
+          }
+        ]
+      }
+    }
+  ]
+}
