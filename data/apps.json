@@ -5,15 +5,21 @@
     "tagline": "Küçük, iyi düşünülmüş uygulamalar.",
     "intro": "Luna Kreatif'in geliştirdiği mobil uygulamalar. Her birinin tanıtımı, ekran görüntüleri, gizlilik politikası ve destek sayfası burada.",
     "url": "https://applab.lunakreatif.com",
-    "contactEmail": "kemal.yldz@gmail.com",
+    "contactEmail": "info@lunakreatif.com",
     "year": 2026
   },
-
   "categories": [
-    { "slug": "oyun", "name": "Oyun", "description": "Oynanışı basit, derinliği sonradan açılan oyunlar." },
-    { "slug": "arac", "name": "Araç", "description": "Günlük işleri kolaylaştıran küçük araçlar." }
+    {
+      "slug": "oyun",
+      "name": "Oyun",
+      "description": "Oynanışı basit, derinliği sonradan açılan oyunlar."
+    },
+    {
+      "slug": "arac",
+      "name": "Araç",
+      "description": "Günlük işleri kolaylaştıran küçük araçlar."
+    }
   ],
-
   "apps": [
     {
       "slug": "kokten",
@@ -24,12 +30,15 @@
       "statusLabel": "Yakında App Store'da",
       "accent": "#B3721F",
       "icon": "assets/kokten/icon.png",
-      "platforms": ["iOS", "Android"],
-      "languages": ["Türkçe"],
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "languages": [
+        "Türkçe"
+      ],
       "price": "Ücretsiz",
-
       "lead": "Sana bir Türkçe kök verilir — örneğin GÖZ. Süre dolmadan o kökten türeyen kelimeleri bulmaya çalışırsın: gözlük, gözcü, gözlem, gözlemci… Basit görünür, ta ki süre işlemeye başlayana kadar.",
-
       "features": [
         {
           "title": "Günün Kökü",
@@ -52,17 +61,32 @@
           "body": "Sözlük cihazında. Hesap yok, giriş yok, sunucuya hiçbir şey gönderilmiyor. Skorların yalnızca senin telefonunda durur."
         }
       ],
-
       "screenshots": [
-        { "src": "assets/kokten/menu.png", "caption": "Ana menü ve gün serisi" },
-        { "src": "assets/kokten/oyun.png", "caption": "Kelimeler bulundukça yeşile döner" },
-        { "src": "assets/kokten/sonuc.png", "caption": "Tur sonucu" },
-        { "src": "assets/kokten/kacanlar.png", "caption": "Kaçırdığın kelimeler" },
-        { "src": "assets/kokten/seri.png", "caption": "Seri takibi: yedi basamak" }
+        {
+          "src": "assets/kokten/menu.png",
+          "caption": "Ana menü ve gün serisi"
+        },
+        {
+          "src": "assets/kokten/oyun.png",
+          "caption": "Kelimeler bulundukça yeşile döner"
+        },
+        {
+          "src": "assets/kokten/sonuc.png",
+          "caption": "Tur sonucu"
+        },
+        {
+          "src": "assets/kokten/kacanlar.png",
+          "caption": "Kaçırdığın kelimeler"
+        },
+        {
+          "src": "assets/kokten/seri.png",
+          "caption": "Seri takibi: yedi basamak"
+        }
       ],
-
-      "links": { "appStore": null, "googlePlay": null },
-
+      "links": {
+        "appStore": null,
+        "googlePlay": null
+      },
       "privacy": {
         "updated": "9 Ağustos 2026",
         "summary": "Kökten hesap açmanızı istemez, adınızı sormaz ve oyun verilerinizi bir sunucuya göndermez. Oynadığınız turlar, skorlarınız ve ayarlarınız yalnızca kendi cihazınızda saklanır. Uygulamayı silerseniz bu veriler de silinir. Toplanan tek veri, uygulamada gösterilen reklamlarla ilgilidir.",
@@ -106,7 +130,6 @@
           }
         ]
       },
-
       "support": {
         "intro": "Kökten ile ilgili soru, hata bildirimi ve önerilerini bekliyoruz. Genelde 2–3 iş günü içinde dönüş yapılır.",
         "faq": [
