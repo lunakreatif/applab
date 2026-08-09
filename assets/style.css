@@ -168,3 +168,6 @@ details p { color: var(--murekkep-soft); margin: .6rem 0 0; }
   color: var(--murekkep-soft); font-size: .88rem;
 }
 .alt p { margin: 0; }
+
+/* E-posta adresinin düz metin hâli — Cloudflare gizlemesine karşı yedek. */
+.adres { font-variant-numeric: tabular-nums; }

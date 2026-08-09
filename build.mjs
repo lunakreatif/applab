@@ -25,6 +25,25 @@ const esc = (s) =>
 /** Alt klasördeki sayfalardan köke dönüş yolu. */
 const rel = (depth) => (depth === 0 ? '' : '../'.repeat(depth));
 
+/**
+ * E-posta adresi — tıklanabilir bağlantı + JS gerektirmeyen düz metin.
+ *
+ * Cloudflare'ın "Email Address Obfuscation" özelliği `mailto:` bağlantılarını
+ * `__cf_email__` ile değiştiriyor ve adresi tarayıcıda JavaScript ile çözüyor.
+ * Tarayıcıda sorun yok ama **JS çalıştırmayan istemci adresi hiç görmüyor** —
+ * mağaza inceleme araçları buna dahil ve destek sayfasının tek işi o adresi
+ * göstermek.
+ *
+ * Bu yüzden adres ikinci kez, araya yorum düğümü konularak yazılıyor: Cloudflare'ın
+ * deseni etiket sınırını geçemiyor, metin olduğu gibi kalıyor. Ayarı Cloudflare
+ * panelinden kapatmak da çözer (Scrape Shield), ama sayfa ona bağlı kalmamalı.
+ */
+function eposta(adres, etiket = 'E-posta gönder') {
+  const [kullanici, alan] = adres.split('@');
+  const duz = `${esc(kullanici)}<!---->@<!---->${esc(alan)}`;
+  return `<a href="mailto:${esc(adres)}">${esc(etiket)}</a> · <span class="adres">${duz}</span>`;
+}
+
 function layout({ title, description, depth, accent, body, active }) {
   const r = rel(depth);
   return `<!doctype html>
@@ -56,7 +75,7 @@ ${accent ? `<style>:root{--accent:${accent}}</style>` : ''}
 ${body}
 </main>
 <footer class="alt">
-  <p>© ${site.year} ${esc(site.studio)} · <a href="mailto:${esc(site.contactEmail)}">${esc(site.contactEmail)}</a></p>
+  <p>© ${site.year} ${esc(site.studio)} · ${eposta(site.contactEmail)}</p>
 </footer>
 </body>
 </html>
@@ -192,7 +211,7 @@ function gizlilikSayfasi(app) {
 ${bolumler}
 
     <h2>İletişim</h2>
-    <p>${esc(site.studio)}<br>E-posta: <a href="mailto:${esc(site.contactEmail)}">${esc(site.contactEmail)}</a></p>
+    <p>${esc(site.studio)}<br>E-posta: ${eposta(site.contactEmail)}</p>
   </article>`,
   });
 }
@@ -219,7 +238,7 @@ function destekSayfasi(app) {
     <p>${esc(app.support.intro)}</p>
 
     <div class="ozet">
-      <p><strong>E-posta:</strong> <a href="mailto:${esc(site.contactEmail)}?subject=${encodeURIComponent(app.name + ' — destek')}">${esc(site.contactEmail)}</a></p>
+      <p><strong>E-posta:</strong> ${eposta(site.contactEmail)}</p>
     </div>
 
     <h2>Sık sorulan sorular</h2>
