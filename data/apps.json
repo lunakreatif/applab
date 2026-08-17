@@ -18,6 +18,11 @@
       "slug": "arac",
       "name": "Araç",
       "description": "Günlük işleri kolaylaştıran küçük araçlar."
+    },
+    {
+      "slug": "manevi",
+      "name": "Manevi Hayat",
+      "description": "Günün ritmini ibadet ve tefekkürle kuran uygulamalar."
     }
   ],
   "apps": [
@@ -152,6 +157,159 @@
           {
             "q": "Skorlarımı nasıl silerim?",
             "a": "Ayarlar → “Skorlarımı sil”. Tur geçmişin, sıralaman ve gün serin silinir; bu işlem geri alınamaz."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tasavvufizinde",
+      "name": "Tasavvuf İzinde",
+      "tagline": "Doksan dokuz esma, günün ritmine yerleşsin.",
+      "category": "manevi",
+      "status": "yakinda",
+      "statusLabel": "Yakında App Store'da",
+      "accent": "#245D4C",
+      "icon": "assets/tasavvufizinde/icon.png",
+      "platforms": [
+        "iOS"
+      ],
+      "languages": [
+        "Türkçe",
+        "English"
+      ],
+      "price": "Ücretsiz",
+      "lead": "Esmaü'l-Hüsna'yı ezberlenecek bir liste olarak değil, güne yayılan bir yol olarak sunar. Sabah bir esma, gün içinde bir zikir, vakti gelince bir hatırlatma. Konumuna göre namaz vakitleri ve kıble pusulası da aynı yerde durur.",
+      "features": [
+        {
+          "title": "99 Esmaü'l-Hüsna",
+          "body": "Her esmanın anlamı, Arapça yazımı, ebced değeri ve önerilen zikir sayısı. İsme ya da anlama göre arayabilir, bir esmaya dokunup doğrudan zikre başlayabilirsin."
+        },
+        {
+          "title": "99 Gün Yolu",
+          "body": "Her güne bir esma düşer, doksan dokuz günde tamamlanır. Program takvim gününe göre ilerler; bir günü kaçırmak seni başa döndürmez."
+        },
+        {
+          "title": "Zikir sayacı",
+          "body": "Serbest ya da hedefli (33, 99 veya kendi sayın). Boncuk dizisini kaydırarak sayarsın; her boncukta telefon hafifçe tıklar. Terkip seçtiysen esmalar sırayla kendiliğinden ilerler."
+        },
+        {
+          "title": "Namaz vakitleri ve kıble",
+          "body": "Konumuna göre günün vakitleri, sıradaki vakte kalan süre ve pusulayla kıble yönü. Hesaplama yöntemi seçilebilir, varsayılan Diyanet İşleri Başkanlığı. Başka bir şehrin vakitlerine de bakabilirsin."
+        },
+        {
+          "title": "Esma terkipleri ve ebced",
+          "body": "Niyetine göre esma tarifleri — rızık, şifa, aile, yol, korunma… Her terkip hangi esmaların hangi sırayla zikredileceğini söyler. İsminin ebced değerinden kendi esmanı da bulabilirsin."
+        },
+        {
+          "title": "Hesap yok, sunucu yok",
+          "body": "Kayıt olmazsın, giriş yapmazsın. Zikirlerin, niyetlerin ve ilerlemen yalnızca kendi telefonunda durur. Cihazdan çıkan tek şey, namaz vakti hesaplamak için gönderilen konum koordinatlarıdır."
+        }
+      ],
+      "screenshots": [
+        {
+          "src": "assets/tasavvufizinde/bugun.png",
+          "caption": "Günün esması, niyet ve kandil hatırlatması"
+        },
+        {
+          "src": "assets/tasavvufizinde/esmalar.png",
+          "caption": "Doksan dokuz esma, arama ve araçlar"
+        },
+        {
+          "src": "assets/tasavvufizinde/detay.png",
+          "caption": "Esma detayı: anlam, ebced değeri, önerilen zikir"
+        },
+        {
+          "src": "assets/tasavvufizinde/zikir.png",
+          "caption": "Boncuk dizisiyle zikir sayacı"
+        },
+        {
+          "src": "assets/tasavvufizinde/namaz.png",
+          "caption": "Vakitler, kalan süre ve kıble"
+        },
+        {
+          "src": "assets/tasavvufizinde/levhalar.png",
+          "caption": "Nûr Levhaları — emekle açığa çıkan tablolar"
+        }
+      ],
+      "links": {
+        "appStore": null,
+        "googlePlay": null
+      },
+      "privacy": {
+        "updated": "18 Ağustos 2026",
+        "summary": "Tasavvuf İzinde hesap açmanızı istemez, adınızı sunucuya göndermez ve sizi tanımlayan hiçbir kayıt tutmaz. Zikirleriniz, niyetleriniz, namaz işaretleriniz ve ayarlarınız yalnızca kendi cihazınızda saklanır. Cihazdan çıkan tek veri, namaz vakitlerini ve kıbleyi hesaplatmak için gönderilen konum koordinatlarınızdır — o da yalnızca konum iznini verdiyseniz.",
+        "sections": [
+          {
+            "title": "Cihazınızda kalan veriler",
+            "body": "Aşağıdakiler telefonunuzun kendi depolamasında tutulur; bizim erişimimiz yoktur:",
+            "list": [
+              "Uygulamaya girerken yazdığınız ad ve seçtiğiniz niyet",
+              "Zikir sayaçlarınız, günlük seriniz ve seçtiğiniz esmalar",
+              "99 Gün Yolu ilerlemeniz ve işaretlediğiniz günler",
+              "Kıldığınız/kaza namaz işaretleriniz ve günlük niyet notlarınız",
+              "Ayarlarınız: dil, tema, punto, bildirim tercihleri, hesaplama yöntemi",
+              "En son kullanılan konumunuz (şehir adı ve koordinat), vakitleri çevrimdışı gösterebilmek için"
+            ],
+            "after": "Bu verileri <strong>Profil › Verilerimi dışa aktar</strong> ile yedekleyebilir, uygulamayı silerek tamamen kaldırabilirsiniz."
+          },
+          {
+            "title": "Konum",
+            "body": "Namaz vakitleri ve kıble yönü bulunduğunuz yere göre hesaplanır. İzin verirseniz konumunuz şu iki servise gönderilir:",
+            "list": [
+              "<strong>Aladhan</strong> (aladhan.com) — enlem ve boylamınızdan günün namaz vakitlerini hesaplar.",
+              "<strong>Nominatim / OpenStreetMap</strong> (openstreetmap.org) — koordinatı ekranda göstereceğimiz şehir adına çevirir."
+            ],
+            "after": "Bu isteklerde ad, e-posta, cihaz kimliği ya da sizi tanımlayan başka hiçbir bilgi gönderilmez; yalnızca koordinat gider. İzin vermezseniz uygulama çalışmaya devam eder, vakitleri İstanbul varsayılanıyla gösterir ve dilediğiniz şehri elle seçebilirsiniz. Konum izni telefonunuzun ayarlarından her an geri alınabilir.<br><br>Kıble pusulası cihazın hareket ve yön sensörlerini kullanır; bu veriler <strong>telefondan hiç çıkmaz.</strong>"
+          },
+          {
+            "title": "Bildirimler",
+            "body": "Sabah/akşam esması, Cuma ve kandil hatırlatmaları <strong>siz açarsanız</strong> gösterilir. Bu bildirimler telefonunuzun kendisi tarafından, cihazda planlanır; bize hiçbir bilgi gitmez. Uygulama içinden ya da telefonunuzun bildirim ayarlarından kapatabilirsiniz.",
+            "after": "iOS bildirim izni verildiğinde sisteme kayıt sırasında bir cihaz jetonu üretilir. Bu jeton yalnızca telefonunuzda saklanır; şu anda hiçbir sunucuya gönderilmemektedir."
+          },
+          {
+            "title": "Toplamadıklarımız",
+            "body": "Uygulamada <strong>hiçbir analitik, çökme raporlama, reklam ya da izleme aracı yoktur.</strong> Hesap sistemi yoktur, e-posta ya da telefon numarası istenmez. Okuduğunuz esmalar, yazdığınız niyetler ve zikir sayılarınız bize ulaşmaz."
+          },
+          {
+            "title": "Çocuklar",
+            "body": "Tasavvuf İzinde 13 yaşın altındaki çocuklara yönelik değildir ve bilerek onlardan veri toplamaz."
+          },
+          {
+            "title": "Haklarınız",
+            "body": "Verileriniz cihazınızda olduğu için erişim, düzeltme, taşıma ve silme tamamen sizin elinizdedir: Profil › Verilerimi dışa aktar ile yedeğinizi alabilir, uygulamayı kaldırarak tüm kayıtları silebilirsiniz. Konum paylaşımını telefon ayarlarından kapatabilirsiniz."
+          },
+          {
+            "title": "Değişiklikler",
+            "body": "Bu politika değişirse yukarıdaki tarih güncellenir. Toplanan veride bir değişiklik olursa uygulama içinde bilgilendirme yapılır."
+          }
+        ]
+      },
+      "support": {
+        "intro": "Tasavvuf İzinde ile ilgili soru, hata bildirimi ve önerilerini bekliyoruz. Genelde 2–3 iş günü içinde dönüş yapılır.",
+        "faq": [
+          {
+            "q": "Namaz vakitleri başka bir uygulamadan farklı çıkıyor",
+            "a": "Vakitler seçtiğin hesaplama yöntemine göre değişir. Varsayılan Diyanet İşleri Başkanlığı'dır; Namaz sekmesindeki vakitler kartından yöntemi değiştirebilirsin. Tercihin kalıcı olarak saklanır."
+          },
+          {
+            "q": "Konum iznini vermek istemiyorum",
+            "a": "Vermek zorunda değilsin. Uygulama İstanbul varsayılanıyla açılır ve Namaz sekmesindeki “Şehir” düğmesinden istediğin şehri seçebilirsin. Kıble pusulası da seçtiğin şehre göre yön gösterir."
+          },
+          {
+            "q": "Kıble pusulası titriyor ya da yanlış gösteriyor",
+            "a": "Telefonu elinde sekiz çizer gibi birkaç kez çevirerek pusulayı kalibre et. Metal masa, mıknatıslı kılıf ve şarj kablosu gibi manyetik kaynaklar yönü bozar; bunlardan uzaklaşınca düzelir."
+          },
+          {
+            "q": "99 Gün Yolu'nda bir günü kaçırdım, program bozuldu mu?",
+            "a": "Hayır. Program takvim gününe göre ilerler; kaçırdığın gün işaretsiz kalır ama sıradaki güne geçmeni engellemez."
+          },
+          {
+            "q": "Verilerimi yeni telefonuma nasıl taşırım?",
+            "a": "Eski telefonda Profil › Verilerimi dışa aktar ile yedeği panoya kopyala, kendine gönder. Yeni telefonda Profil › Yedekten geri yükle ekranına yapıştır."
+          },
+          {
+            "q": "Bildirimleri nasıl kapatırım?",
+            "a": "Profil ekranındaki bildirim anahtarlarından tek tek kapatabilirsin. Tümünü birden kapatmak için telefonunun Ayarlar › Bildirimler bölümünü de kullanabilirsin."
           }
         ]
       }
