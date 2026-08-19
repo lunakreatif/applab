@@ -282,7 +282,7 @@
             "body": "Bu içerikler cihazınızda tutulmaz, açtığınız anda ilgili kaynaktan çekilir. Doğal olarak o kaynak isteğinizi (IP adresiniz dâhil) görür:",
             "list": [
               "<strong>Diyanet İşleri Başkanlığı</strong> (dinhizmetleri.diyanet.gov.tr) ve <strong>Diyanet Haber</strong> (diyanethaber.com.tr) — haftalık Cuma hutbesinin metni.",
-              "<strong>YouTube / Google</strong> — Mekke ve Medine canlı yayınları uygulama içinde YouTube üzerinden oynatılır. Yayını açtığınızda YouTube kendi çerez ve veri politikasını uygular. Mümkün olan yerde çerez azaltılmış (<code>youtube-nocookie</code>) adres kullanılır.",
+              "<strong>YouTube / Google</strong> — Mekke ve Medine canlı yayınları YouTube üzerinden gelir. Yayın uygulama içindeki oynatıcıda açılır; cihazınızda YouTube uygulaması ya da tarayıcı kuruluysa yayın orada da açılabilir. Her iki durumda da YouTube kendi çerez ve veri politikasını uygular ve oturum açtıysanız isteği hesabınızla ilişkilendirebilir. Mümkün olan yerde çerez azaltılmış (<code>youtube-nocookie</code>) adres kullanılır.",
               "<strong>Islamic Network CDN</strong> (cdn.islamic.network) — bazı içeriklerin ses ve görselleri."
             ],
             "after": "Bu bölümlerin hiçbirine girmezseniz bu servislere hiçbir istek gitmez."
