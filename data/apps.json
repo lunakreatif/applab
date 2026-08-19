@@ -171,14 +171,15 @@
       "accent": "#245D4C",
       "icon": "assets/tasavvufizinde/icon.png",
       "platforms": [
-        "iOS"
+        "iOS",
+        "Android"
       ],
       "languages": [
         "Türkçe",
         "English"
       ],
       "price": "Ücretsiz",
-      "lead": "Esmaü'l-Hüsna'yı ezberlenecek bir liste olarak değil, güne yayılan bir yol olarak sunar. Sabah bir esma, gün içinde bir zikir, vakti gelince bir hatırlatma. Konumuna göre namaz vakitleri ve kıble pusulası da aynı yerde durur.",
+      "lead": "Esmaü'l-Hüsna'yı ezberlenecek bir liste olarak değil, güne yayılan bir yol olarak sunar. Sabah bir esma, gün içinde bir zikir, vakti gelince ezanla bir hatırlatma. Namaz vakitleri, kıble, sesli namaz rehberi, Cuma hutbesi ve Harameyn'in canlı yayını da aynı yerde durur.",
       "features": [
         {
           "title": "99 Esmaü'l-Hüsna",
@@ -190,19 +191,27 @@
         },
         {
           "title": "Zikir sayacı",
-          "body": "Serbest ya da hedefli (33, 99 veya kendi sayın). Boncuk dizisini kaydırarak sayarsın; her boncukta telefon hafifçe tıklar. Terkip seçtiysen esmalar sırayla kendiliğinden ilerler."
+          "body": "Serbest ya da hedefli — 33, 99 veya kendi belirlediğin sayı. Boncuk dizisini kaydırarak sayarsın; her boncukta telefon hafifçe tıklar. Terkip seçtiysen esmalar sırayla kendiliğinden ilerler."
         },
         {
-          "title": "Namaz vakitleri ve kıble",
-          "body": "Konumuna göre günün vakitleri, sıradaki vakte kalan süre ve pusulayla kıble yönü. Hesaplama yöntemi seçilebilir, varsayılan Diyanet İşleri Başkanlığı. Başka bir şehrin vakitlerine de bakabilirsin."
+          "title": "Namaz vakitleri, kıble ve ezan",
+          "body": "Konumuna göre günün vakitleri, sıradaki vakte kalan süre ve pusulayla kıble yönü. Hesaplama yöntemi seçilebilir, varsayılan Diyanet İşleri Başkanlığı. Vakit bildirimleri için ezan ve doğa seslerinden seçim yapabilirsin."
         },
         {
-          "title": "Esma terkipleri ve ebced",
-          "body": "Niyetine göre esma tarifleri — rızık, şifa, aile, yol, korunma… Her terkip hangi esmaların hangi sırayla zikredileceğini söyler. İsminin ebced değerinden kendi esmanı da bulabilirsin."
+          "title": "Sesli Namaz Rehberi",
+          "body": "Namazı adım adım sesli takip et: tekbir, kıyam, rükû, secde, oturuş. Sübhâneke, Ettehiyyâtü, Salli-Bârik ve Rabbenâ duaları da sesli dinlenebiliyor."
         },
         {
-          "title": "Hesap yok, sunucu yok",
-          "body": "Kayıt olmazsın, giriş yapmazsın. Zikirlerin, niyetlerin ve ilerlemen yalnızca kendi telefonunda durur. Cihazdan çıkan tek şey, namaz vakti hesaplamak için gönderilen konum koordinatlarıdır."
+          "title": "Cuma hutbesi ve Harameyn",
+          "body": "Diyanet'in haftalık Cuma hutbesini uygulama içinde okuyabilir, Mekke ve Medine'nin canlı yayınını izleyebilirsin."
+        },
+        {
+          "title": "Esma terkipleri, ebced ve yakındaki camiler",
+          "body": "Niyetine göre esma tarifleri — rızık, aile, yol, korunma, iç dünya… İsminin ebced değerinden kendi esmanı bulabilir, çevrendeki camileri haritada görebilirsin."
+        },
+        {
+          "title": "Hesap yok",
+          "body": "Kayıt olmazsın, giriş yapmazsın. Zikirlerin, niyetlerin ve ilerlemen yalnızca kendi telefonunda durur; bizim bir sunucumuz yok."
         }
       ],
       "screenshots": [
@@ -236,39 +245,51 @@
         "googlePlay": null
       },
       "privacy": {
-        "updated": "18 Ağustos 2026",
-        "summary": "Tasavvuf İzinde hesap açmanızı istemez, adınızı sunucuya göndermez ve sizi tanımlayan hiçbir kayıt tutmaz. Zikirleriniz, niyetleriniz, namaz işaretleriniz ve ayarlarınız yalnızca kendi cihazınızda saklanır. Cihazdan çıkan tek veri, namaz vakitlerini ve kıbleyi hesaplatmak için gönderilen konum koordinatlarınızdır — o da yalnızca konum iznini verdiyseniz.",
+        "updated": "19 Ağustos 2026",
+        "summary": "Tasavvuf İzinde hesap açmanızı istemez ve <strong>bizim hiçbir sunucumuz yoktur</strong> — zikirleriniz, niyetleriniz, namaz işaretleriniz ve ayarlarınız yalnızca kendi cihazınızda saklanır, bize hiçbir şey ulaşmaz. Ancak uygulama bazı özellikleri için doğrudan üçüncü taraf servislere bağlanır: namaz vakti ve kıble için konumunuz, bildirimler için Google'ın bildirim altyapısı, Cuma hutbesi için Diyanet siteleri, canlı yayın için YouTube ve yakındaki camiler için Apple Haritalar. Aşağıda her birinin ne aldığı tek tek yazıyor.",
         "sections": [
           {
             "title": "Cihazınızda kalan veriler",
-            "body": "Aşağıdakiler telefonunuzun kendi depolamasında tutulur; bizim erişimimiz yoktur:",
+            "body": "Aşağıdakiler telefonunuzun kendi depolamasında tutulur; bizim erişimimiz yoktur ve hiçbir sunucuya gönderilmez:",
             "list": [
               "Uygulamaya girerken yazdığınız ad ve seçtiğiniz niyet",
               "Zikir sayaçlarınız, günlük seriniz ve seçtiğiniz esmalar",
               "99 Gün Yolu ilerlemeniz ve işaretlediğiniz günler",
               "Kıldığınız/kaza namaz işaretleriniz ve günlük niyet notlarınız",
-              "Ayarlarınız: dil, tema, punto, bildirim tercihleri, hesaplama yöntemi",
-              "En son kullanılan konumunuz (şehir adı ve koordinat), vakitleri çevrimdışı gösterebilmek için"
+              "Ayarlarınız: dil, tema, punto, bildirim tercihleri, bildirim sesi, hesaplama yöntemi",
+              "En son kullanılan konumunuz (şehir adı ve koordinat), vakitleri çevrimdışı gösterebilmek için",
+              "Bildirim izni verdiyseniz cihazınıza ait bildirim jetonu"
             ],
             "after": "Bu verileri <strong>Profil › Verilerimi dışa aktar</strong> ile yedekleyebilir, uygulamayı silerek tamamen kaldırabilirsiniz."
           },
           {
             "title": "Konum",
-            "body": "Namaz vakitleri ve kıble yönü bulunduğunuz yere göre hesaplanır. İzin verirseniz konumunuz şu iki servise gönderilir:",
+            "body": "Konum izni <strong>isteğe bağlıdır.</strong> İzin verirseniz koordinatınız şu servislere gönderilir:",
             "list": [
               "<strong>Aladhan</strong> (aladhan.com) — enlem ve boylamınızdan günün namaz vakitlerini hesaplar.",
-              "<strong>Nominatim / OpenStreetMap</strong> (openstreetmap.org) — koordinatı ekranda göstereceğimiz şehir adına çevirir."
+              "<strong>Nominatim / OpenStreetMap</strong> (openstreetmap.org) — koordinatı ekranda göstereceğimiz şehir adına çevirir.",
+              "<strong>Apple Haritalar</strong> — yalnızca “yakındaki camiler” ekranını açtığınızda, çevrenizdeki camileri aramak için kullanılır."
             ],
             "after": "Bu isteklerde ad, e-posta, cihaz kimliği ya da sizi tanımlayan başka hiçbir bilgi gönderilmez; yalnızca koordinat gider. İzin vermezseniz uygulama çalışmaya devam eder, vakitleri İstanbul varsayılanıyla gösterir ve dilediğiniz şehri elle seçebilirsiniz. Konum izni telefonunuzun ayarlarından her an geri alınabilir.<br><br>Kıble pusulası cihazın hareket ve yön sensörlerini kullanır; bu veriler <strong>telefondan hiç çıkmaz.</strong>"
           },
           {
             "title": "Bildirimler",
-            "body": "Sabah/akşam esması, Cuma ve kandil hatırlatmaları <strong>siz açarsanız</strong> gösterilir. Bu bildirimler telefonunuzun kendisi tarafından, cihazda planlanır; bize hiçbir bilgi gitmez. Uygulama içinden ya da telefonunuzun bildirim ayarlarından kapatabilirsiniz.",
-            "after": "iOS bildirim izni verildiğinde sisteme kayıt sırasında bir cihaz jetonu üretilir. Bu jeton yalnızca telefonunuzda saklanır; şu anda hiçbir sunucuya gönderilmemektedir."
+            "body": "Vakit, sabah/akşam esması, Cuma ve kandil hatırlatmaları <strong>siz açarsanız</strong> gösterilir. Bu bildirimlerin tamamı telefonunuzun kendisi tarafından, cihazda planlanır.",
+            "after": "Bildirim iznini verdiğinizde uygulama, ileride duyuru gönderebilmek için cihazınızı <strong>Google'ın bildirim altyapısına (Firebase Cloud Messaging)</strong> kaydeder. Bu kayıt sırasında Google, cihazınıza ait bir bildirim jetonu üretir ve kaydı kendi sistemine alır; bu Google'ın kendi gizlilik politikasına tabidir. Jeton yalnızca telefonunuzda saklanır — <strong>bizim bir sunucumuz olmadığı için bize ulaşmaz</strong> ve şu anda size bu yolla bildirim gönderilmemektedir. Bildirim iznini vermezseniz bu kayıt hiç yapılmaz."
+          },
+          {
+            "title": "Cuma hutbesi, canlı yayın ve sesler",
+            "body": "Bu içerikler cihazınızda tutulmaz, açtığınız anda ilgili kaynaktan çekilir. Doğal olarak o kaynak isteğinizi (IP adresiniz dâhil) görür:",
+            "list": [
+              "<strong>Diyanet İşleri Başkanlığı</strong> (dinhizmetleri.diyanet.gov.tr) ve <strong>Diyanet Haber</strong> (diyanethaber.com.tr) — haftalık Cuma hutbesinin metni.",
+              "<strong>YouTube / Google</strong> — Mekke ve Medine canlı yayınları uygulama içinde YouTube üzerinden oynatılır. Yayını açtığınızda YouTube kendi çerez ve veri politikasını uygular. Mümkün olan yerde çerez azaltılmış (<code>youtube-nocookie</code>) adres kullanılır.",
+              "<strong>Islamic Network CDN</strong> (cdn.islamic.network) — bazı içeriklerin ses ve görselleri."
+            ],
+            "after": "Bu bölümlerin hiçbirine girmezseniz bu servislere hiçbir istek gitmez."
           },
           {
             "title": "Toplamadıklarımız",
-            "body": "Uygulamada <strong>hiçbir analitik, çökme raporlama, reklam ya da izleme aracı yoktur.</strong> Hesap sistemi yoktur, e-posta ya da telefon numarası istenmez. Okuduğunuz esmalar, yazdığınız niyetler ve zikir sayılarınız bize ulaşmaz."
+            "body": "Uygulamada <strong>hiçbir analitik, çökme raporlama, reklam ya da izleme aracı yoktur.</strong> Hesap sistemi yoktur, e-posta ya da telefon numarası istenmez. Okuduğunuz esmalar, yazdığınız niyetler ve zikir sayılarınız bize ulaşmaz. Uygulama içi satın alma bulunmamaktadır. Firebase yalnızca bildirim (Cloud Messaging) için kullanılır; Firebase Analytics kurulu değildir."
           },
           {
             "title": "Çocuklar",
@@ -276,7 +297,7 @@
           },
           {
             "title": "Haklarınız",
-            "body": "Verileriniz cihazınızda olduğu için erişim, düzeltme, taşıma ve silme tamamen sizin elinizdedir: Profil › Verilerimi dışa aktar ile yedeğinizi alabilir, uygulamayı kaldırarak tüm kayıtları silebilirsiniz. Konum paylaşımını telefon ayarlarından kapatabilirsiniz."
+            "body": "Verileriniz cihazınızda olduğu için erişim, düzeltme, taşıma ve silme tamamen sizin elinizdedir: Profil › Verilerimi dışa aktar ile yedeğinizi alabilir, uygulamayı kaldırarak tüm kayıtları silebilirsiniz. Konum ve bildirim izinlerini telefon ayarlarından her an kapatabilirsiniz."
           },
           {
             "title": "Değişiklikler",
@@ -293,7 +314,15 @@
           },
           {
             "q": "Konum iznini vermek istemiyorum",
-            "a": "Vermek zorunda değilsin. Uygulama İstanbul varsayılanıyla açılır ve Namaz sekmesindeki “Şehir” düğmesinden istediğin şehri seçebilirsin. Kıble pusulası da seçtiğin şehre göre yön gösterir."
+            "a": "Vermek zorunda değilsin. Uygulama İstanbul varsayılanıyla açılır ve Namaz sekmesindeki “Şehir” düğmesinden istediğin şehri seçebilirsin. Yalnızca “yakındaki camiler” ekranı konum ister."
+          },
+          {
+            "q": "Ezan sesi çalmıyor ya da çok kısa",
+            "a": "iOS bildirim seslerini 30 saniyeyle sınırlar, bu yüzden ezan bildirimi açılış tekbirlerine kısaltılmıştır. Ses hiç gelmiyorsa telefonun sessiz modunu ve Ayarlar › Bildirimler › Tasavvuf İzinde altındaki ses iznini kontrol et."
+          },
+          {
+            "q": "Canlı yayın açılmıyor",
+            "a": "Yayınlar YouTube üzerinden gelir; bağlantın yavaşsa ya da YouTube'a erişim kısıtlıysa açılmayabilir. Yayın kaynağı da zaman zaman kesintiye girebiliyor, biraz sonra tekrar dene."
           },
           {
             "q": "Kıble pusulası titriyor ya da yanlış gösteriyor",
