@@ -18,6 +18,11 @@
       "slug": "arac",
       "name": "Araç",
       "description": "Günlük işleri kolaylaştıran küçük araçlar."
+    },
+    {
+      "slug": "is",
+      "name": "İş",
+      "description": "Kurumların ve ekiplerin işini yürüten uygulamalar."
     }
   ],
   "apps": [
@@ -152,6 +157,166 @@
           {
             "q": "Skorlarımı nasıl silerim?",
             "a": "Ayarlar → “Skorlarımı sil”. Tur geçmişin, sıralaman ve gün serin silinir; bu işlem geri alınamaz."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "deventory",
+      "name": "Deventory",
+      "tagline": "Etkinliklerinizi cebinizde yönetin.",
+      "category": "is",
+      "status": "yakinda",
+      "statusLabel": "Yakında App Store ve Google Play'de",
+      "accent": "#004B97",
+      "icon": "assets/deventory/icon.png",
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "languages": [
+        "Türkçe",
+        "İngilizce"
+      ],
+      "price": "Ücretsiz",
+      "lead": "Deventory, kurumların etkinliklerini yürüttüğü bir platformdur. Uygulama katılımcı tarafını cebe taşır: etkinlikleri görürsünüz, kayıt olursunuz, biletinizi QR olarak gösterirsiniz, programı takip eder ve değişiklikleri bildirim olarak alırsınız. Etkinlik sorumluları aynı uygulamadan bilet okutup yoklama alır.",
+      "features": [
+        {
+          "title": "Etkinlikler ve kayıt",
+          "body": "Kurumunuzun etkinliklerini listeler, türüne göre süzer, kontenjan dolduysa yedek listeye girersiniz. Son kayıt tarihine geri sayım ekranda durur."
+        },
+        {
+          "title": "Biletiniz telefonunuzda",
+          "body": "Bilet QR'ı altmış saniyede bir yenilenir. Ekran görüntüsü işe yaramaz; bu, biletin başkasına iletilmesini engeller."
+        },
+        {
+          "title": "Program ve hatırlatmalar",
+          "body": "Günlük program, o an devam eden oturum ve kendi programınız tek ekranda. Etkinlik yaklaşınca, salon ya da saat değişince bildirim gelir."
+        },
+        {
+          "title": "Etkinlik duvarı ve anketler",
+          "body": "Duyurular, katılımcı paylaşımları, yanıtlar ve anketler. Duvarı kimin görebileceğine etkinliği düzenleyen kurum karar verir."
+        },
+        {
+          "title": "Katılım belgeniz",
+          "body": "Etkinlik sonunda belgeniz uygulamada durur. Salonda gösterilen QR'ı okutarak da alabilirsiniz."
+        },
+        {
+          "title": "Sorumlular için bilet okuma",
+          "body": "Etkinlik sorumluları ve yöneticiler kamerayla bilet okutur, katılımcı listesini görür ve elle yoklama alır."
+        }
+      ],
+      "screenshots": [],
+      "links": {
+        "appStore": null,
+        "googlePlay": null
+      },
+      "privacy": {
+        "updated": "11 Eylül 2026",
+        "summary": "Deventory bir hesapla çalışır: adınız, soyadınız ve e-posta adresiniz olmadan etkinliğe kayıt olunamaz. Uygulama reklam göstermez, analitik ya da çökme raporlama aracı kullanmaz, hiçbir üçüncü tarafa veri satmaz. Verileriniz, üyesi olduğunuz kurumun etkinliklerini yürütmek için kullanılır ve hesabınızı uygulama içinden silebilirsiniz.",
+        "sections": [
+          {
+            "title": "Hesabınız",
+            "body": "Hesap açarken şunları veriyorsunuz:",
+            "list": [
+              "<strong>Ad ve soyad</strong> — katılımcı listelerinde ve katılım belgenizde görünür.",
+              "<strong>E-posta adresi</strong> — giriş, şifre sıfırlama ve etkinlik e-postaları için.",
+              "<strong>Şifre</strong> — sunucuda yalnızca özet (hash) olarak saklanır, açık hâli hiçbir yerde tutulmaz.",
+              "<strong>Kurum üyelikleriniz</strong> — hangi kurumun etkinliklerini gördüğünüzü belirler."
+            ],
+            "after": "Kurumun kayıt formunda ek soruları varsa (bölüm, ünvan, beden gibi) verdiğiniz yanıtlar yalnız o kurumun yetkililerine görünür."
+          },
+          {
+            "title": "Etkinlik verileriniz",
+            "body": "Uygulamayı kullandıkça şu kayıtlar oluşur:",
+            "list": [
+              "Kayıt olduğunuz etkinlikler, yedek liste sıranız ve iptalleriniz.",
+              "Etkinlik girişinde biletinizin okutulduğu an (yoklama kaydı).",
+              "Katılım belgeleriniz.",
+              "Etkinlik duvarına yazdığınız paylaşımlar, yanıtlar ve tepkiler.",
+              "Anketlerde verdiğiniz oylar. Anket anonim işaretlendiyse kimin ne oy verdiği yetkililere gösterilmez."
+            ],
+            "after": "Katılımcı listesinde adınız, yönetici ve etkinlik sorumluları dışındaki katılımcılara <strong>maskeli</strong> görünür: “Ayşe Yılmaz” yerine “A*** Y*****”. Kendi adınızı tam görürsünüz."
+          },
+          {
+            "title": "Bildirimler",
+            "body": "Bildirime izin verirseniz cihazınızın bildirim kimliği (push token), işletim sistemi ve dil tercihi kaydedilir. Bunlar yalnızca size bildirim gönderebilmek için kullanılır. Hangi bildirimleri alacağınızı uygulama içinden seçebilir, izni cihaz ayarlarından tamamen kapatabilirsiniz. İzin vermezseniz uygulamanın geri kalanı aynı şekilde çalışır."
+          },
+          {
+            "title": "Kamera",
+            "body": "Kamera yalnızca QR okutmak için açılır: etkinlik sorumluları bilet okuturken, katılımcılar belge QR'ı okuturken. Görüntü cihazınızda işlenir, kaydedilmez ve hiçbir yere gönderilmez. İzin vermezseniz yalnız QR okuma çalışmaz."
+          },
+          {
+            "title": "Ödemeler",
+            "body": "Ücretli bir etkinliğe kayıt olurken ödeme, tarayıcıda açılan Stripe sayfasında yapılır. Kart bilgileriniz uygulamaya ve sunucularımıza hiç uğramaz; bize yalnızca ödemenin tamamlandığı bilgisi döner. Mağaza kuralları gereği uygulama içinden ödeme alınmaz."
+          },
+          {
+            "title": "Verilerinizi kim görüyor",
+            "body": "Üyesi olduğunuz kurumun yöneticileri ve kayıt olduğunuz etkinliğin sorumluları, o etkinliğe dair kayıtlarınızı görür: adınız, e-postanız, kaydınız, yoklamanız ve varsa kayıt formu yanıtlarınız. Başka bir kurumun yetkilileri verilerinizi göremez. Luna Kreatif platformu işleten taraftır ve verilere yalnızca hizmeti sürdürmek ve arıza gidermek için erişir. Verileriniz reklam amacıyla kullanılmaz, satılmaz, pazarlama için üçüncü taraflara aktarılmaz."
+          },
+          {
+            "title": "Hesabınızı silmek",
+            "body": "Uygulamada Profil ekranının altındaki “Hesabımı sil” ile hesabınızı kendiniz kapatabilirsiniz. Silme işleminde:",
+            "list": [
+              "Adınız, soyadınız, e-posta adresiniz, şifreniz ve profil fotoğrafınız kaldırılır; hesap anonim hâle getirilir.",
+              "Cihaz bildirim kayıtlarınız, bildirim tercihleriniz ve e-posta doğrulama kayıtlarınız silinir.",
+              "Bekleyen yedek liste kayıtlarınız ve ödenmemiş rezervasyonlarınız iptal edilir.",
+              "Oturumunuz tüm cihazlarda kapatılır."
+            ],
+            "after": "Geçmiş etkinliklere ait katılım ve muhasebe kayıtları, kurumun yasal saklama yükümlülüğü nedeniyle <strong>kimliğinizden arındırılmış</strong> olarak kalır. İşlem geri alınamaz. Yardım isterseniz destek adresinden yazabilirsiniz."
+          },
+          {
+            "title": "Haklarınız",
+            "body": "6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında verilerinize erişme, düzeltme, silinmesini isteme ve işlemeye itiraz etme haklarınız var. Ad ve soyadınızı uygulamadan doğrudan düzenleyebilir, hesabınızı silebilirsiniz. Diğer talepleriniz için destek adresine yazın; en geç otuz gün içinde dönüş yapılır."
+          },
+          {
+            "title": "Çocuklar",
+            "body": "Uygulama çocuklara yönelik değildir ve on üç yaşın altındaki kullanıcılardan bilerek veri toplamaz. Böyle bir kayıt fark edilirse silinir."
+          },
+          {
+            "title": "Değişiklikler",
+            "body": "Bu metin değiştiğinde yukarıdaki güncelleme tarihi yenilenir. Toplanan veri türü genişlerse değişiklik uygulama içinden ayrıca duyurulur."
+          }
+        ]
+      },
+      "support": {
+        "intro": "Deventory ile ilgili soru, hata bildirimi ve önerilerinizi bekliyoruz. Genelde 2–3 iş günü içinde dönüş yapılır. Bir etkinliğin içeriği, kontenjanı veya ücretiyle ilgili sorular için önce etkinliği düzenleyen kuruma yazmanız daha hızlı sonuç verir.",
+        "faq": [
+          {
+            "q": "Giriş yapamıyorum, hesabım web sitesinde var",
+            "a": "Uygulama web ile aynı hesabı kullanır. Şifrenizi hatırlamıyorsanız giriş ekranından sıfırlama isteyin. Kurum panelinde “platform yöneticisi” rolündeyseniz uygulamaya giriş yapılamaz, web panelini kullanın."
+          },
+          {
+            "q": "Etkinlik listesi boş görünüyor",
+            "a": "Önce bir kuruma üye olmanız gerekir. Profil ekranından Organizasyonlar'a girip kurumunuzu seçin; kayıt dışarıya açıksa oradan katılabilirsiniz."
+          },
+          {
+            "q": "Bilet QR'ım sürekli değişiyor, normal mi?",
+            "a": "Evet. QR altmış saniyede bir yenilenir, böylece ekran görüntüsü paylaşılarak bilet başkasına devredilemez. Girişte telefonunuzu açık tutmanız yeterli."
+          },
+          {
+            "q": "Kontenjan dolu, ne yapabilirim?",
+            "a": "Yedek listeye girin. Kayıt iptali olduğunda sıradaki kişiye bildirim gider ve yer açılır."
+          },
+          {
+            "q": "Ücretli etkinliğe neden uygulamadan ödeme yapamıyorum?",
+            "a": "Ücretli yüz yüze etkinliklerde ödeme tarayıcıda açılan güvenli sayfada tamamlanır. Ücretli çevrimiçi etkinliklere ise mağaza kuralları gereği uygulamadan kayıt olunamaz; bunlar için web sitesini kullanın."
+          },
+          {
+            "q": "Bildirim gelmiyor",
+            "a": "Profil ekranındaki bildirim tercihlerini ve cihazınızın bildirim ayarlarını kontrol edin. İzni sonradan verdiyseniz uygulamayı bir kez kapatıp açmak kaydı tazeler."
+          },
+          {
+            "q": "Katılım belgemi nasıl alırım?",
+            "a": "Etkinlik sonunda belgeniz Profil → Sertifikalarım altında görünür. Salonda belge QR'ı gösteriliyorsa onu okutarak da alabilirsiniz."
+          },
+          {
+            "q": "Katılımcı listesinde isimler neden yıldızlı?",
+            "a": "Diğer katılımcıların adları gizlilik için maskelenir. Yönetici ve etkinlik sorumluları tam listeyi görür; siz kendi adınızı her zaman tam görürsünüz."
+          },
+          {
+            "q": "Hesabımı nasıl silerim?",
+            "a": "Profil ekranının en altındaki “Hesabımı sil” düğmesi yeterli. Ne silindiğini gizlilik politikasının “Hesabınızı silmek” bölümünde ayrıntılı yazdık."
           }
         ]
       }
