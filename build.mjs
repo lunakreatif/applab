@@ -153,7 +153,7 @@ function uygulamaSayfasi(app) {
 
     <p class="lead">${esc(app.lead)}</p>
 
-    <section class="vitrin">
+    ${app.screenshots.length === 0 ? '' : `<section class="vitrin">
       ${app.screenshots
         .map(
           (s) => `<figure>
@@ -162,7 +162,7 @@ function uygulamaSayfasi(app) {
       </figure>`,
         )
         .join('\n      ')}
-    </section>
+    </section>`}
 
     <section class="ozellikler">
       ${app.features
